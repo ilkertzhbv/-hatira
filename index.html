@@ -1,97 +1,313 @@
-<!doctype html>
-<html lang="tr">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>İlker ❤ Bahargül — Ana Sayfa</title>
-
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YBDYWZSF9B"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-YBDYWZSF9B');
-</script>
-
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-<style>
-:root{--accent:#e75480;--muted:#666;--card:rgba(255,255,255,0.94);--shadow:0 18px 60px rgba(10,10,20,0.06);--maxw:1100px}
-*{box-sizing:border-box;margin:0;padding:0}
-html,body{height:100%;font-family:'Poppins',system-ui,Arial;background:#fff;color:#111;-webkit-font-smoothing:antialiased}
-body::before{content:"";position:fixed;inset:0;background:url('Bahoş.jpg') center/cover fixed;z-index:-2}
-body::after{content:"";position:fixed;inset:0;background:linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.95));z-index:-1}
-
-/* common menu */
-.hamburger{position:fixed;left:14px;top:14px;z-index:1300;background:rgba(255,255,255,0.85);border-radius:12px;padding:10px;border:0;box-shadow:var(--shadow);cursor:pointer;font-weight:700}
-.sidebar{position:fixed;left:0;top:0;bottom:0;width:0;overflow:hidden;background:rgba(255,255,255,0.96);backdrop-filter:blur(8px);transition:width .36s;z-index:1290}
-.sidebar.open{width:260px}
-.sidebar nav{margin-top:72px;display:flex;flex-direction:column;gap:6px;padding:12px}
-.sidebar a{padding:12px;border-radius:10px;font-weight:700;color:#222}
-.sidebar a.active{background:linear-gradient(90deg,var(--accent),#b33e62);color:#fff}
-
-.container{max-width:var(--maxw);margin:86px auto;padding:18px}
-.hero{background:var(--card);padding:26px;border-radius:16px;box-shadow:var(--shadow);text-align:center}
-.hero h1{font-family:'Dancing Script',cursive;font-size:clamp(28px,6vw,56px);color:#b23a60}
-.hero p{color:var(--muted);line-height:1.6;margin-top:10px}
-.note-card{margin-top:18px;background:#fff;padding:16px;border-radius:12px;box-shadow:var(--shadow);max-width:820px;margin-left:auto;margin-right:auto}
-.note-card p{margin:8px 0}
-.footer{margin-top:26px;text-align:center;color:var(--muted);font-size:13px}
-@media(max-width:700px){ .container{margin:110px 14px} .hero{padding:18px} .note-card{padding:12px} }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="flower.css">
+    <title>imissu</title>
 </head>
-<body>
+  
+<body class="not-loaded">
+  
+    <div class="night"></div>
+    <div class="flowers">
+      <div class="flower flower--1">
+        <div class="flower_leafs flower_leafs--1">
+          <div class="flower_leaf flower_leaf--1"></div>
+          <div class="flower_leaf flower_leaf--2"></div>
+          <div class="flower_leaf flower_leaf--3"></div>
+          <div class="flower_leaf flower_leaf--4"></div>
+          
 
-<button class="hamburger" id="menuBtn">☰ Menü</button>
-<aside id="sidebar" class="sidebar" aria-hidden="true">
-  <nav>
-    <a href="index.html" class="active">🏠 Ana Sayfa</a>
-    <a href="anilar.html">📸 Anılar</a>
-    <a href="zaman.html">⏳ Zaman</a>
-    <a href="sarkilar.html">🎶 Şarkılar</a>
-    <a href="gokyuzu.html">🌌 Gökyüzü</a>
-    <a href="masal.html">📚 Masal</a>
-    <a href="dogum.html">🎂 Doğum Günü</a>
-  </nav>
-</aside>
-
-<main class="container" role="main">
-  <section class="hero" aria-labelledby="heroTitle">
-    <h1 id="heroTitle">İlker ❤ Bahargül</h1>
-    <p>
-      Birlikte geçen günlerin hatırası burada yaşıyor...<br>
-      Eğer bi' gün tamamen benden soğursan,<br>
-      Barışma ihtimalimiz sıfır olsa bile,<br>
-      Şunu sakın unutma, ben seni hep içimde taşıyacağım.<br>
-      Her ne yaşarsam yaşayayım, kalbimin en derin yerlerinde hep var olacaksın.<br>
-      Belki bir şarkı da. Belki seninle yürüdüğümüz sokaklarda,<br>
-      Ve belki de gecenin bi' vaktinde hep aklımda kalacaksın.<br>
-      Benim için herşeye rağmen en güzel ihtimal sen oldun.<br>
-      Gerçekleşmedi ama hayalimdeki yerini hiç kaybetmedin.<br>
-      Muazzam bir ihtimaldin, Gökyüzüne dokunmak gibi.
-    </p>
-
-    <div class="note-card" aria-live="polite">
-      <strong>✨ İlker’den Not</strong>
-      <p>Sevgilim ufaklık,</p>
-      <p>Sen benim gözümün görmediğini görensin.</p>
-      <p>Aklımın yetmediğini bilensin.</p>
-      <p>Bir yerlerde çok doğru bir şey yapıyor olmalıydım ki seni hakedeyim.</p>
-      <p>Aradığın huzuru bulman dileği ile.</p>
-      <p style="text-align:right;font-weight:700">— İlker</p>
+          <div class="flower__white-circle"></div>
+  
+          <div class="flower_light flower_light--1"></div>
+          <div class="flower_light flower_light--2"></div>
+          <div class="flower_light flower_light--3"></div>
+          <div class="flower_light flower_light--4"></div>
+          <div class="flower_light flower_light--5"></div>
+          <div class="flower_light flower_light--6"></div>
+          <div class="flower_light flower_light--7"></div>
+          <div class="flower_light flower_light--8"></div>
+  
+        </div>
+        <div class="flower__line">
+          <div class="flower_lineleaf flowerline_leaf--1"></div>
+          <div class="flower_lineleaf flowerline_leaf--2"></div>
+          <div class="flower_lineleaf flowerline_leaf--3"></div>
+          <div class="flower_lineleaf flowerline_leaf--4"></div>
+          <div class="flower_lineleaf flowerline_leaf--5"></div>
+          <div class="flower_lineleaf flowerline_leaf--6"></div>
+        </div>
+      </div>
+  
+      <div class="flower flower--2">
+        <div class="flower_leafs flower_leafs--2">
+          <div class="flower_leaf flower_leaf--1"></div>
+          <div class="flower_leaf flower_leaf--2"></div>
+          <div class="flower_leaf flower_leaf--3"></div>
+          <div class="flower_leaf flower_leaf--4"></div>
+          <div class="flower__white-circle"></div>
+  
+          <div class="flower_light flower_light--1"></div>
+          <div class="flower_light flower_light--2"></div>
+          <div class="flower_light flower_light--3"></div>
+          <div class="flower_light flower_light--4"></div>
+          <div class="flower_light flower_light--5"></div>
+          <div class="flower_light flower_light--6"></div>
+          <div class="flower_light flower_light--7"></div>
+          <div class="flower_light flower_light--8"></div>
+  
+        </div>
+        <div class="flower__line">
+          <div class="flower_lineleaf flowerline_leaf--1"></div>
+          <div class="flower_lineleaf flowerline_leaf--2"></div>
+          <div class="flower_lineleaf flowerline_leaf--3"></div>
+          <div class="flower_lineleaf flowerline_leaf--4"></div>
+        </div>
+      </div>
+  
+      <div class="flower flower--3">
+        <div class="flower_leafs flower_leafs--3">
+          <div class="flower_leaf flower_leaf--1"></div>
+          <div class="flower_leaf flower_leaf--2"></div>
+          <div class="flower_leaf flower_leaf--3"></div>
+          <div class="flower_leaf flower_leaf--4"></div>
+          <div class="flower__white-circle"></div>
+  
+          <div class="flower_light flower_light--1"></div>
+          <div class="flower_light flower_light--2"></div>
+          <div class="flower_light flower_light--3"></div>
+          <div class="flower_light flower_light--4"></div>
+          <div class="flower_light flower_light--5"></div>
+          <div class="flower_light flower_light--6"></div>
+          <div class="flower_light flower_light--7"></div>
+          <div class="flower_light flower_light--8"></div>
+  
+        </div>
+        <div class="flower__line">
+          <div class="flower_lineleaf flowerline_leaf--1"></div>
+          <div class="flower_lineleaf flowerline_leaf--2"></div>
+          <div class="flower_lineleaf flowerline_leaf--3"></div>
+          <div class="flower_lineleaf flowerline_leaf--4"></div>
+        </div>
+      </div>
+  
+      <div class="grow-ans" style="--d:1.2s">
+        <div class="flower__g-long">
+          <div class="flower_g-long_top"></div>
+          <div class="flower_g-long_bottom"></div>
+        </div>
+      </div>
+  
+      <div class="growing-grass">
+        <div class="flower_grass flower_grass--1">
+          <div class="flower__grass--top"></div>
+          <div class="flower__grass--bottom"></div>
+          <div class="flower_grassleaf flowergrass_leaf--1"></div>
+          <div class="flower_grassleaf flowergrass_leaf--2"></div>
+          <div class="flower_grassleaf flowergrass_leaf--3"></div>
+          <div class="flower_grassleaf flowergrass_leaf--4"></div>
+          <div class="flower_grassleaf flowergrass_leaf--5"></div>
+          <div class="flower_grassleaf flowergrass_leaf--6"></div>
+          <div class="flower_grassleaf flowergrass_leaf--7"></div>
+          <div class="flower_grassleaf flowergrass_leaf--8"></div>
+          <div class="flower_grass_overlay"></div>
+        </div>
+      </div>
+  
+      <div class="growing-grass">
+        <div class="flower_grass flower_grass--2">
+          <div class="flower__grass--top"></div>
+          <div class="flower__grass--bottom"></div>
+          <div class="flower_grassleaf flowergrass_leaf--1"></div>
+          <div class="flower_grassleaf flowergrass_leaf--2"></div>
+          <div class="flower_grassleaf flowergrass_leaf--3"></div>
+          <div class="flower_grassleaf flowergrass_leaf--4"></div>
+          <div class="flower_grassleaf flowergrass_leaf--5"></div>
+          <div class="flower_grassleaf flowergrass_leaf--6"></div>
+          <div class="flower_grassleaf flowergrass_leaf--7"></div>
+          <div class="flower_grassleaf flowergrass_leaf--8"></div>
+          <div class="flower_grass_overlay"></div>
+        </div>
+      </div>
+  
+      <div class="grow-ans" style="--d:2.4s">
+        <div class="flower_g-right flower_g-right--1">
+          <div class="leaf"></div>
+        </div>
+      </div>
+  
+      <div class="grow-ans" style="--d:2.8s">
+        <div class="flower_g-right flower_g-right--2">
+          <div class="leaf"></div>
+        </div>
+      </div>
+  
+      <div class="grow-ans" style="--d:2.8s">
+        <div class="flower__g-front">
+          <div class="flower_g-frontleaf-wrapper flowerg-front_leaf-wrapper--1">
+            <div class="flower_g-front_leaf"></div>
+          </div>
+          <div class="flower_g-frontleaf-wrapper flowerg-front_leaf-wrapper--2">
+            <div class="flower_g-front_leaf"></div>
+          </div>
+          <div class="flower_g-frontleaf-wrapper flowerg-front_leaf-wrapper--3">
+            <div class="flower_g-front_leaf"></div>
+          </div>
+          <div class="flower_g-frontleaf-wrapper flowerg-front_leaf-wrapper--4">
+            <div class="flower_g-front_leaf"></div>
+          </div>
+          <div class="flower_g-frontleaf-wrapper flowerg-front_leaf-wrapper--5">
+            <div class="flower_g-front_leaf"></div>
+          </div>
+          <div class="flower_g-frontleaf-wrapper flowerg-front_leaf-wrapper--6">
+            <div class="flower_g-front_leaf"></div>
+          </div>
+          <div class="flower_g-frontleaf-wrapper flowerg-front_leaf-wrapper--7">
+            <div class="flower_g-front_leaf"></div>
+          </div>
+          <div class="flower_g-frontleaf-wrapper flowerg-front_leaf-wrapper--8">
+            <div class="flower_g-front_leaf"></div>
+          </div>
+          <div class="flower_g-front_line"></div>
+        </div>
+      </div>
+  
+      <div class="grow-ans" style="--d:3.2s">
+        <div class="flower__g-fr">
+          <div class="leaf"></div>
+          <div class="flower_g-frleaf flowerg-fr_leaf--1"></div>
+          <div class="flower_g-frleaf flowerg-fr_leaf--2"></div>
+          <div class="flower_g-frleaf flowerg-fr_leaf--3"></div>
+          <div class="flower_g-frleaf flowerg-fr_leaf--4"></div>
+          <div class="flower_g-frleaf flowerg-fr_leaf--5"></div>
+          <div class="flower_g-frleaf flowerg-fr_leaf--6"></div>
+          <div class="flower_g-frleaf flowerg-fr_leaf--7"></div>
+          <div class="flower_g-frleaf flowerg-fr_leaf--8"></div>
+        </div>
+      </div>
+  
+      <div class="long-g long-g--0">
+        <div class="grow-ans" style="--d:3s">
+          <div class="leaf leaf--0"></div>
+        </div>
+        <div class="grow-ans" style="--d:2.2s">
+          <div class="leaf leaf--1"></div>
+        </div>
+        <div class="grow-ans" style="--d:3.4s">
+          <div class="leaf leaf--2"></div>
+        </div>
+        <div class="grow-ans" style="--d:3.6s">
+          <div class="leaf leaf--3"></div>
+        </div>
+      </div>
+  
+      <div class="long-g long-g--1">
+        <div class="grow-ans" style="--d:3.6s">
+          <div class="leaf leaf--0"></div>
+        </div>
+        <div class="grow-ans" style="--d:3.8s">
+          <div class="leaf leaf--1"></div>
+        </div>
+        <div class="grow-ans" style="--d:4s">
+          <div class="leaf leaf--2"></div>
+        </div>
+        <div class="grow-ans" style="--d:4.2s">
+          <div class="leaf leaf--3"></div>
+        </div>
+      </div>
+  
+      <div class="long-g long-g--2">
+        <div class="grow-ans" style="--d:4s">
+          <div class="leaf leaf--0"></div>
+        </div>
+        <div class="grow-ans" style="--d:4.2s">
+          <div class="leaf leaf--1"></div>
+        </div>
+        <div class="grow-ans" style="--d:4.4s">
+          <div class="leaf leaf--2"></div>
+        </div>
+        <div class="grow-ans" style="--d:4.6s">
+          <div class="leaf leaf--3"></div>
+        </div>
+      </div>
+  
+      <div class="long-g long-g--3">
+        <div class="grow-ans" style="--d:4s">
+          <div class="leaf leaf--0"></div>
+        </div>
+        <div class="grow-ans" style="--d:4.2s">
+          <div class="leaf leaf--1"></div>
+        </div>
+        <div class="grow-ans" style="--d:3s">
+          <div class="leaf leaf--2"></div>
+        </div>
+        <div class="grow-ans" style="--d:3.6s">
+          <div class="leaf leaf--3"></div>
+        </div>
+      </div>
+  
+      <div class="long-g long-g--4">
+        <div class="grow-ans" style="--d:4s">
+          <div class="leaf leaf--0"></div>
+        </div>
+        <div class="grow-ans" style="--d:4.2s">
+          <div class="leaf leaf--1"></div>
+        </div>
+        <div class="grow-ans" style="--d:3s">
+          <div class="leaf leaf--2"></div>
+        </div>
+        <div class="grow-ans" style="--d:3.6s">
+          <div class="leaf leaf--3"></div>
+        </div>
+      </div>
+  
+      <div class="long-g long-g--5">
+        <div class="grow-ans" style="--d:4s">
+          <div class="leaf leaf--0"></div>
+        </div>
+        <div class="grow-ans" style="--d:4.2s">
+          <div class="leaf leaf--1"></div>
+        </div>
+        <div class="grow-ans" style="--d:3s">
+          <div class="leaf leaf--2"></div>
+        </div>
+        <div class="grow-ans" style="--d:3.6s">
+          <div class="leaf leaf--3"></div>
+        </div>
+      </div>
+  
+      <div class="long-g long-g--6">
+        <div class="grow-ans" style="--d:4.2s">
+          <div class="leaf leaf--0"></div>
+        </div>
+        <div class="grow-ans" style="--d:4.4s">
+          <div class="leaf leaf--1"></div>
+        </div>
+        <div class="grow-ans" style="--d:4.6s">
+          <div class="leaf leaf--2"></div>
+        </div>
+        <div class="grow-ans" style="--d:4.8s">
+          <div class="leaf leaf--3"></div>
+        </div>
+      </div>
+  
+      <div class="long-g long-g--7">
+        <div class="grow-ans" style="--d:3s">
+          <div class="leaf leaf--0"></div>
+        </div>
+        <div class="grow-ans" style="--d:3.2s">
+          <div class="leaf leaf--1"></div>
+        </div>
+        <div class="grow-ans" style="--d:3.5s">
+          <div class="leaf leaf--2"></div>
+        </div>
+        <div class="grow-ans" style="--d:3.6s">
+          <div class="leaf leaf--3"></div>
+        </div>
+      </div>
     </div>
-  </section>
-
-  <div class="footer">Bu sayfa İlker tarafından bir hatıra olarak hazırlandı.</div>
-</main>
-
-<script>
-const menuBtn = document.getElementById('menuBtn'), sidebar = document.getElementById('sidebar');
-menuBtn.addEventListener('click', ()=> {
-  const open = sidebar.classList.toggle('open');
-  sidebar.setAttribute('aria-hidden', String(!open));
-});
-</script>
-</body>
+    <script src="flower.js"></script>
+  </body>
 </html>
-
